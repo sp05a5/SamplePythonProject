@@ -3,12 +3,16 @@
 
 
 class Calculations:
-    def __init__(self, a, b):
+    def __init__(self, a, b, c):
         self.a = a
         self.b = b
+        self.c = c
 
     def get_sum(self):
         return self.a + self.b
+    
+    def get_sum(self):
+        return self.a +  self.c
 
     def get_difference(self):
         return self.a - self.b
