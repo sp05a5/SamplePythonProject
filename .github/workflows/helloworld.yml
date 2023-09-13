@@ -41,3 +41,11 @@ jobs:
         pip install pytest
     - name: Run tests
       run: pytest tests/test_*
+
+    #- uses: actions/checkout@v3
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: path/to/artifact/
+        
+    
